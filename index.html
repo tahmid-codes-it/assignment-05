@@ -36,7 +36,7 @@
 
         <div class="flex items-center gap-5">
             <button
-                class="inter-font font-extrabold btn btn-soft bg-[#41ff6b1a] rounded-3xl border-none"><span>0</span><img
+                class="inter-font font-extrabold btn btn-soft bg-[#41ff6b1a] rounded-3xl border-none"><span id="fav-count">0</span><img
                     class="w-5" src="assets/heart.png" alt=""></i></button>
             <button
                 class="inter-font font-extrabold btn btn-soft bg-[#41ff6b1a] rounded-3xl border-none"><span>100</span><img
@@ -67,7 +67,7 @@
                         <div class="bg-[#ffe3e2] rounded-xl p-[14px]">
                             <img class="w-7" src="assets/emergency.png" alt="">
                         </div>
-                        <i class="text-lg fa-regular fa-heart"></i>
+                        <i id="heart-1" class="text-lg fa-regular fa-heart hover:text-red-500"></i>
                     </div>
                     <h2 class="text-xl font-bold card-title">National Emergency Number</h2>
                     <p>National Emergency</p>
@@ -89,7 +89,7 @@
                         <div class="bg-[#dfefff] rounded-xl p-[14px]">
                             <img class="w-7" src="assets/police.png" alt="">
                         </div>
-                        <i class="text-lg fa-regular fa-heart"></i>
+                        <i id="heart-2" class="text-lg fa-regular fa-heart hover:text-red-500"></i>
                     </div>
                     <h2 class="text-xl font-bold card-title">Police Helpline Number</h2>
                     <p>Police</p>
@@ -111,7 +111,7 @@
                         <div class="bg-[#ffe3e2] rounded-xl p-[14px]">
                             <img class="w-7" src="assets/emergency.png" alt="">
                         </div>
-                        <i class="text-lg fa-regular fa-heart"></i>
+                        <i id="heart-3" class="text-lg fa-regular fa-heart hover:text-red-500"></i>
                     </div>
                     <h2 class="text-xl font-bold card-title">Fire Service Number</h2>
                     <p>Fire Service</p>
@@ -133,7 +133,7 @@
                         <div class="bg-[#ffe3e2] rounded-xl p-[14px]">
                             <img class="w-7" src="assets/ambulance.png" alt="">
                         </div>
-                        <i class="text-lg fa-regular fa-heart"></i>
+                        <i id="heart-4" class="text-lg fa-regular fa-heart hover:text-red-500"></i>
                     </div>
                     <h2 class="text-xl font-bold card-title">Ambulance Service</h2>
                     <p>Ambulance</p>
@@ -155,7 +155,7 @@
                         <div class="bg-[#ffe3e2] rounded-xl p-[14px]">
                             <img class="w-7" src="assets/emergency.png" alt="">
                         </div>
-                        <i class="text-lg fa-regular fa-heart"></i>
+                        <i id="heart-5" class="text-lg fa-regular fa-heart hover:text-red-500"></i>
                     </div>
                     <h2 class="text-xl font-bold card-title">Women & Child Helpline</h2>
                     <p>Women & Child Helpline</p>
@@ -177,7 +177,7 @@
                         <div class="bg-[#ffe3e2] rounded-xl p-[14px]">
                             <img class="w-7" src="assets/emergency.png" alt="">
                         </div>
-                        <i class="text-lg fa-regular fa-heart"></i>
+                        <i id="heart-6"  class="text-lg fa-regular fa-heart hover:text-red-500"></i>
                     </div>
                     <h2 class="text-xl font-bold card-title">Anti-Corruption Helpline</h2>
                     <p>Anti-Corruption</p>
@@ -199,7 +199,7 @@
                         <div class="bg-[#ffe3e2] rounded-xl p-[14px]">
                             <img class="w-7" src="assets/emergency.png" alt="">
                         </div>
-                        <i class="text-lg fa-regular fa-heart"></i>
+                        <i id="heart-7"  class="text-lg fa-regular fa-heart hover:text-red-500"></i>
                     </div>
                     <h2 class="text-xl font-bold card-title">Electricity Helpline</h2>
                     <p>Electricity Outage</p>
@@ -221,7 +221,7 @@
                         <div class="bg-[#ffe3e2] rounded-xl p-[14px]">
                             <img class="w-7" src="assets/emergency.png" alt="">
                         </div>
-                        <i class="text-lg fa-regular fa-heart"></i>
+                        <i id="heart-8"  class="text-lg fa-regular fa-heart hover:text-red-500"></i>
                     </div>
                     <h2 class="text-xl font-bold card-title">Brac Helpline</h2>
                     <p>Brac</p>
@@ -243,7 +243,7 @@
                         <div class="bg-[#ffe3e2] rounded-xl p-[14px]">
                             <img class="w-7" src="assets/emergency.png" alt="">
                         </div>
-                        <i class="text-lg fa-regular fa-heart"></i>
+                        <i id="heart-9"  class="text-lg fa-regular fa-heart hover:text-red-500"></i>
                     </div>
                     <h2 class="text-xl font-bold card-title">Bangladesh Railway Helpline </h2>
                     <p>Bangladesh Railway</p>
@@ -277,5 +277,7 @@
    </div>
 
 </body>
+
+<script src="functionality.js"></script>
 
 </html>
