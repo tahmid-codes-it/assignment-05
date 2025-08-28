@@ -15,10 +15,10 @@ function callHandler(id, message) {
   const coinCount = document.getElementById("coin-count");
   const coinCountNumber = parseInt(coinCount.innerText);
   const coinCountNumberTotal = coinCountNumber - 20;
-  if (coinCountNumberTotal === -20) {
-    alert("Not enough coins!");
-    return;
-  }
+if (coinCountNumber < 20) {
+   alert("Not enough coins!");
+   return;
+}
   coinCount.innerText = coinCountNumberTotal;
   if (coinCountNumberTotal >= 0) {
     alert(message);
