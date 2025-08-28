@@ -1,5 +1,3 @@
-
-
 function heartHandler(id) {
 
   const favCount = document.getElementById("fav-count");
@@ -25,10 +23,6 @@ if (coinCountNumber < 20) {
   }
 
 }
-
-
-
-
 
 
 
@@ -214,7 +208,7 @@ const buttons = document.getElementsByClassName("copy-btn");
 
   for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", function () {
-      const textToCopy = numbers[i].innerText; // pick the number of the same card
+      const textToCopy = numbers[i].innerText;
       navigator.clipboard.writeText(textToCopy);
       alert("Copied: " + textToCopy);
     });
@@ -258,16 +252,3 @@ document.getElementById("copy-9").addEventListener("click", function(){
   copyCountHandler("copy-9");
 })
 
-
-
-
-
-
-
-
-// const data = {
-//   name: "National Emergency Number",
-//   date: new Date().toLocaleTimeString()
-// };
-
-// historyData.push(data);
