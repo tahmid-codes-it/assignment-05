@@ -209,6 +209,58 @@ historyContainer.innerHTML = "";
 
 
 
+const buttons = document.getElementsByClassName("copy-btn");
+  const numbers = document.getElementsByClassName("section-number");
+
+  for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", function () {
+      const textToCopy = numbers[i].innerText; // pick the number of the same card
+      navigator.clipboard.writeText(textToCopy);
+      alert("Copied: " + textToCopy);
+    });
+  }
+
+function copyCountHandler(id){
+const copyCount = document.getElementById("copy-count");
+  const copyCountNumber = parseInt(copyCount.innerText);
+
+  const copyCountNumberTotal = copyCountNumber + 1;
+  copyCount.innerText = copyCountNumberTotal;
+}
+
+
+
+document.getElementById("copy-1").addEventListener("click", function(){
+  copyCountHandler("copy-1");
+})
+document.getElementById("copy-2").addEventListener("click", function(){
+  copyCountHandler("copy-2");
+})
+document.getElementById("copy-3").addEventListener("click", function(){
+  copyCountHandler("copy-3");
+})
+document.getElementById("copy-4").addEventListener("click", function(){
+  copyCountHandler("copy-4");
+})
+document.getElementById("copy-5").addEventListener("click", function(){
+  copyCountHandler("copy-5");
+})
+document.getElementById("copy-6").addEventListener("click", function(){
+  copyCountHandler("copy-6");
+})
+document.getElementById("copy-7").addEventListener("click", function(){
+  copyCountHandler("copy-7");
+})
+document.getElementById("copy-8").addEventListener("click", function(){
+  copyCountHandler("copy-8");
+})
+document.getElementById("copy-9").addEventListener("click", function(){
+  copyCountHandler("copy-9");
+})
+
+
+
+
 
 
 

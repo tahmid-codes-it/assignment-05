@@ -40,8 +40,8 @@
                     id="fav-count">0</span><img class="w-5" src="assets/heart.png" alt=""></i></button>
             <button class="inter-font font-extrabold btn btn-soft bg-[#41ff6b1a] rounded-3xl border-none"><span
                     id="coin-count">100</span><img class="w-5" src="assets/coin.png" alt=""></i></button>
-            <button class="inter-font btn btn-soft bg-[#00a63e] rounded-3xl border-none text-white"><span>2
-                    Copy</span></button>
+            <button class="inter-font btn btn-soft bg-[#00a63e] rounded-3xl border-none text-white"><span id="copy-count">0
+                    </span>Copy</button>
         </div>
     </nav>
 
@@ -70,10 +70,10 @@
                         </div>
                         <h2 class="text-xl font-bold card-title">National Emergency Number</h2>
                         <p>National Emergency</p>
-                        <p class="text-xl font-bold">999</p>
+                        <p class="section-number text-xl font-bold">999</p>
                         <div><button class="btn btn-xs rounded-xl border-none">All</button></div>
                         <div class="flex gap-2">
-                            <button class="w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
+                            <button id="copy-1" class="copy-btn w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
                                     class="fa-regular fa-copy"></i> Copy</button>
                             <button id="call-1"
                                 class="w-full border bg-[#00a63e] text-white border-[#d4d6d5] hover:bg-[#03722c] rounded-lg py-2">
@@ -92,10 +92,10 @@
                         </div>
                         <h2 class="text-xl font-bold card-title">Police Helpline Number</h2>
                         <p>Police</p>
-                        <p class="text-xl font-bold">999</p>
+                        <p class="section-number text-xl font-bold">999</p>
                         <div><button class="btn btn-xs rounded-xl border-none">Police</button></div>
                         <div class="flex gap-2">
-                            <button class="w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
+                            <button id="copy-2" class="copy-btn w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
                                     class="fa-regular fa-copy"></i> Copy</button>
                             <button id="call-2"
                                 class="w-full border bg-[#00a63e] text-white border-[#d4d6d5] hover:bg-[#03722c] rounded-lg py-2">
@@ -114,10 +114,10 @@
                         </div>
                         <h2 class="text-xl font-bold card-title">Fire Service Number</h2>
                         <p>Fire Service</p>
-                        <p class="text-xl font-bold">999</p>
+                        <p class="section-number text-xl font-bold">999</p>
                         <div><button class="btn btn-xs rounded-xl border-none">Fire</button></div>
                         <div class="flex gap-2">
-                            <button class="w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
+                            <button id="copy-3" class="copy-btn w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
                                     class="fa-regular fa-copy"></i> Copy</button>
                             <button id="call-3"
                                 class="w-full border bg-[#00a63e] text-white border-[#d4d6d5] hover:bg-[#03722c] rounded-lg py-2">
@@ -136,10 +136,10 @@
                         </div>
                         <h2 class="text-xl font-bold card-title">Ambulance Service</h2>
                         <p>Ambulance</p>
-                        <p class="text-xl font-bold">1994-999999</p>
+                        <p class="section-number text-xl font-bold">1994-999999</p>
                         <div><button class="btn btn-xs rounded-xl border-none">Health</button></div>
                         <div class="flex gap-2">
-                            <button class="w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
+                            <button id="copy-4" class="copy-btn w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
                                     class="fa-regular fa-copy"></i> Copy</button>
                             <button id="call-4"
                                 class="w-full border bg-[#00a63e] text-white border-[#d4d6d5] hover:bg-[#03722c] rounded-lg py-2">
@@ -158,10 +158,10 @@
                         </div>
                         <h2 class="text-xl font-bold card-title">Women & Child Helpline</h2>
                         <p>Women & Child Helpline</p>
-                        <p class="text-xl font-bold">109</p>
+                        <p class="section-number text-xl font-bold">109</p>
                         <div><button class="btn btn-xs rounded-xl border-none">Help</button></div>
                         <div class="flex gap-2">
-                            <button class="w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
+                            <button id="copy-5" class="copy-btn w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
                                     class="fa-regular fa-copy"></i> Copy</button>
                             <button id="call-5"
                                 class="w-full border bg-[#00a63e] text-white border-[#d4d6d5] hover:bg-[#03722c] rounded-lg py-2">
@@ -180,10 +180,10 @@
                         </div>
                         <h2 class="text-xl font-bold card-title">Anti-Corruption Helpline</h2>
                         <p>Anti-Corruption</p>
-                        <p class="text-xl font-bold">106</p>
+                        <p class="section-number text-xl font-bold">106</p>
                         <div><button class="btn btn-xs rounded-xl border-none">Govt.</button></div>
                         <div class="flex gap-2">
-                            <button class="w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
+                            <button id="copy-6" class="copy-btn w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
                                     class="fa-regular fa-copy"></i> Copy</button>
                             <button id="call-6"
                                 class="w-full border bg-[#00a63e] text-white border-[#d4d6d5] hover:bg-[#03722c] rounded-lg py-2">
@@ -202,10 +202,10 @@
                         </div>
                         <h2 class="text-xl font-bold card-title">Electricity Helpline</h2>
                         <p>Electricity Outage</p>
-                        <p class="text-xl font-bold">16216</p>
+                        <p class="section-number text-xl font-bold">16216</p>
                         <div><button class="btn btn-xs rounded-xl border-none">Electricity</button></div>
                         <div class="flex gap-2">
-                            <button class="w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
+                            <button id="copy-7"  class="copy-btn w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
                                     class="fa-regular fa-copy"></i> Copy</button>
                             <button id="call-7"
                                 class="w-full border bg-[#00a63e] text-white border-[#d4d6d5] hover:bg-[#03722c] rounded-lg py-2">
@@ -225,9 +225,9 @@
                         <h2 class="text-xl font-bold card-title">Brac Helpline</h2>
                         <p>Brac</p>
                         <p class="text-xl font-bold">16445</p>
-                        <div><button class="btn btn-xs rounded-xl border-none">NGO</button></div>
+                        <div><button class="section-number btn btn-xs rounded-xl border-none">NGO</button></div>
                         <div class="flex gap-2">
-                            <button class="w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
+                            <button id="copy-8" class="copy-btn w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
                                     class="fa-regular fa-copy"></i> Copy</button>
                             <button id="call-8"
                                 class="w-full border bg-[#00a63e] text-white border-[#d4d6d5] hover:bg-[#03722c] rounded-lg py-2">
@@ -246,12 +246,12 @@
                         </div>
                         <h2 class="text-xl font-bold card-title">Bangladesh Railway Helpline </h2>
                         <p>Bangladesh Railway</p>
-                        <p class="text-xl font-bold">163</p>
+                        <p class="section-number text-xl font-bold">163</p>
                         <div><button class="btn btn-xs rounded-xl border-none">Travel</button></div>
                         <div class="flex gap-2">
-                            <button class="w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
+                            <button id="copy-9" class="copy-btn w-full border border-[#d4d6d5] hover:bg-[#d5d8d8] rounded-lg py-2"> <i
                                     class="fa-regular fa-copy"></i> Copy</button>
-                            <button id="call-9"
+                            <button  id="call-9"
                                 class="w-full border bg-[#00a63e] text-white border-[#d4d6d5] hover:bg-[#03722c] rounded-lg py-2">
                                 <i class="fa-solid fa-phone"></i> <span>Call</span></button>
 
