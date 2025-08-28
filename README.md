@@ -26,7 +26,7 @@ By Create & insert element we can make a new element and add it to the page.
 
 
 
-**3. Event Bubbling and how it works**
+**3. Event Bubbling and how it works:**
 Event starts on the element and moves up to parents.
 
 
